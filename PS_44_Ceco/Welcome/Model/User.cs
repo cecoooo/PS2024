@@ -32,5 +32,20 @@ namespace Welcome.Model
 			get { return role; }
 			set { role = value; }
 		}
+		private string facultyNumber;
+
+		public string FacultyNumber
+		{
+			get { return facultyNumber; }
+			set { facultyNumber = value; }
+		}
+
+		private string email;
+
+		public string Email
+		{
+			get { return email; }
+			set { email = value; }
+		}
 	}
 }

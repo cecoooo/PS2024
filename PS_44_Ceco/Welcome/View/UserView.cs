@@ -17,5 +17,8 @@ namespace Welcome.View
         {
             Console.WriteLine($"Welcome\r\nUser: {_viewModel.Name}\r\nRole: {_viewModel.Role}");
         }
+        public void DysplayMoreData() {
+            Console.WriteLine($"Welcome\r\nUser: {_viewModel.Name}\r\nRole: {_viewModel.Role}\nEmail: {_viewModel.Email}\nFaculty number: {_viewModel.FacultyNumber}");
+        }
     }
 }
