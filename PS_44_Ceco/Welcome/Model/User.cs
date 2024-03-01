@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
 using Welcome.Others;
@@ -22,7 +23,7 @@ namespace Welcome.Model
 		public string Password
 		{
 			get { return password; }
-			set { password = value; }
+			set { password = HashClass.hashPassword(value); }
 		}
 
 		private UserRolesEnum role;
@@ -47,5 +48,5 @@ namespace Welcome.Model
 			get { return email; }
 			set { email = value; }
 		}
-	}
+    }
 }
