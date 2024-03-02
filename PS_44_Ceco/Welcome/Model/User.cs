@@ -8,7 +8,7 @@ using Welcome.Others;
 
 namespace Welcome.Model
 {
-    class User
+    public class User
     {
 		private string names;
 
