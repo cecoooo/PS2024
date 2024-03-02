@@ -7,7 +7,7 @@ using Welcome.ViewModel;
 
 namespace Welcome.View
 {
-    class UserView
+    public class UserView
     {
         private UserViewModel _viewModel;
         public UserView(UserViewModel viewModel) {
@@ -19,6 +19,11 @@ namespace Welcome.View
         }
         public void DysplayMoreData() {
             Console.WriteLine($"Welcome\r\nUser: {_viewModel.Name}\r\nRole: {_viewModel.Role}\nEmail: {_viewModel.Email}\nFaculty number: {_viewModel.FacultyNumber}");
+        }
+
+        public void DisplayError() 
+        {
+            throw new Exception("Display Error Message.");
         }
     }
 }
