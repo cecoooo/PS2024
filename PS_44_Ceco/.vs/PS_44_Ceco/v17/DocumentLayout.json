@@ -3,44 +3,52 @@
   "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\PushToGithub\\PS2024\\PS_44_Ceco\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1B0BF5F9-9552-4602-934B-AFF034E10ED8}|WelcomeExtended\\WelcomeExtended.csproj|c:\\users\\user\\desktop\\pushtogithub\\ps2024\\ps_44_ceco\\welcomeextended\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1B0BF5F9-9552-4602-934B-AFF034E10ED8}|WelcomeExtended\\WelcomeExtended.csproj|solutionrelative:welcomeextended\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5CF10154-53C1-4192-B266-BA71C72956F8}|Welcome\\Welcome.csproj|c:\\users\\user\\desktop\\pushtogithub\\ps2024\\ps_44_ceco\\welcome\\view\\userview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5CF10154-53C1-4192-B266-BA71C72956F8}|Welcome\\Welcome.csproj|solutionrelative:welcome\\view\\userview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1B0BF5F9-9552-4602-934B-AFF034E10ED8}|WelcomeExtended\\WelcomeExtended.csproj|c:\\users\\user\\desktop\\pushtogithub\\ps2024\\ps_44_ceco\\welcomeextended\\others\\delegates.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1B0BF5F9-9552-4602-934B-AFF034E10ED8}|WelcomeExtended\\WelcomeExtended.csproj|solutionrelative:welcomeextended\\others\\delegates.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1B0BF5F9-9552-4602-934B-AFF034E10ED8}|WelcomeExtended\\WelcomeExtended.csproj|c:\\users\\user\\desktop\\pushtogithub\\ps2024\\ps_44_ceco\\welcomeextended\\loggers\\loggerprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1B0BF5F9-9552-4602-934B-AFF034E10ED8}|WelcomeExtended\\WelcomeExtended.csproj|solutionrelative:welcomeextended\\loggers\\loggerprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1B0BF5F9-9552-4602-934B-AFF034E10ED8}|WelcomeExtended\\WelcomeExtended.csproj|c:\\users\\user\\desktop\\pushtogithub\\ps2024\\ps_44_ceco\\welcomeextended\\helpers\\userhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B0BF5F9-9552-4602-934B-AFF034E10ED8}|WelcomeExtended\\WelcomeExtended.csproj|solutionrelative:welcomeextended\\helpers\\userhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1B0BF5F9-9552-4602-934B-AFF034E10ED8}|WelcomeExtended\\WelcomeExtended.csproj|c:\\users\\user\\desktop\\pushtogithub\\ps2024\\ps_44_ceco\\welcomeextended\\loggers\\hashlogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1B0BF5F9-9552-4602-934B-AFF034E10ED8}|WelcomeExtended\\WelcomeExtended.csproj|solutionrelative:welcomeextended\\loggers\\hashlogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{1B0BF5F9-9552-4602-934B-AFF034E10ED8}|WelcomeExtended\\WelcomeExtended.csproj|c:\\users\\user\\desktop\\pushtogithub\\ps2024\\ps_44_ceco\\welcomeextended\\loggers\\loggerprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B0BF5F9-9552-4602-934B-AFF034E10ED8}|WelcomeExtended\\WelcomeExtended.csproj|solutionrelative:welcomeextended\\loggers\\loggerprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B0BF5F9-9552-4602-934B-AFF034E10ED8}|WelcomeExtended\\WelcomeExtended.csproj|c:\\users\\user\\desktop\\pushtogithub\\ps2024\\ps_44_ceco\\welcomeextended\\data\\userdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B0BF5F9-9552-4602-934B-AFF034E10ED8}|WelcomeExtended\\WelcomeExtended.csproj|solutionrelative:welcomeextended\\data\\userdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B0BF5F9-9552-4602-934B-AFF034E10ED8}|WelcomeExtended\\WelcomeExtended.csproj|c:\\users\\user\\desktop\\pushtogithub\\ps2024\\ps_44_ceco\\welcomeextended\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B0BF5F9-9552-4602-934B-AFF034E10ED8}|WelcomeExtended\\WelcomeExtended.csproj|solutionrelative:welcomeextended\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{1B0BF5F9-9552-4602-934B-AFF034E10ED8}|WelcomeExtended\\WelcomeExtended.csproj|c:\\users\\user\\desktop\\pushtogithub\\ps2024\\ps_44_ceco\\welcomeextended\\helpers\\loggerhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1B0BF5F9-9552-4602-934B-AFF034E10ED8}|WelcomeExtended\\WelcomeExtended.csproj|solutionrelative:welcomeextended\\helpers\\loggerhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5CF10154-53C1-4192-B266-BA71C72956F8}|Welcome\\Welcome.csproj|c:\\users\\user\\desktop\\pushtogithub\\ps2024\\ps_44_ceco\\welcome\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5CF10154-53C1-4192-B266-BA71C72956F8}|Welcome\\Welcome.csproj|solutionrelative:welcome\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5CF10154-53C1-4192-B266-BA71C72956F8}|Welcome\\Welcome.csproj|c:\\users\\user\\desktop\\pushtogithub\\ps2024\\ps_44_ceco\\welcome\\viewmodel\\userviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5CF10154-53C1-4192-B266-BA71C72956F8}|Welcome\\Welcome.csproj|solutionrelative:welcome\\viewmodel\\userviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5CF10154-53C1-4192-B266-BA71C72956F8}|Welcome\\Welcome.csproj|c:\\users\\user\\desktop\\pushtogithub\\ps2024\\ps_44_ceco\\welcome\\model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5CF10154-53C1-4192-B266-BA71C72956F8}|Welcome\\Welcome.csproj|solutionrelative:welcome\\model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5CF10154-53C1-4192-B266-BA71C72956F8}|Welcome\\Welcome.csproj|c:\\users\\user\\desktop\\pushtogithub\\ps2024\\ps_44_ceco\\welcome\\others\\userrolesenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5CF10154-53C1-4192-B266-BA71C72956F8}|Welcome\\Welcome.csproj|solutionrelative:welcome\\others\\userrolesenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5CF10154-53C1-4192-B266-BA71C72956F8}|Welcome\\Welcome.csproj|c:\\users\\user\\desktop\\pushtogithub\\ps2024\\ps_44_ceco\\welcome\\model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5CF10154-53C1-4192-B266-BA71C72956F8}|Welcome\\Welcome.csproj|solutionrelative:welcome\\model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5CF10154-53C1-4192-B266-BA71C72956F8}|Welcome\\Welcome.csproj|c:\\users\\user\\desktop\\pushtogithub\\ps2024\\ps_44_ceco\\welcome\\view\\userview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5CF10154-53C1-4192-B266-BA71C72956F8}|Welcome\\Welcome.csproj|solutionrelative:welcome\\view\\userview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CF10154-53C1-4192-B266-BA71C72956F8}|Welcome\\Welcome.csproj|c:\\users\\user\\desktop\\pushtogithub\\ps2024\\ps_44_ceco\\welcome\\viewmodel\\userviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5CF10154-53C1-4192-B266-BA71C72956F8}|Welcome\\Welcome.csproj|solutionrelative:welcome\\viewmodel\\userviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B0BF5F9-9552-4602-934B-AFF034E10ED8}|WelcomeExtended\\WelcomeExtended.csproj|c:\\users\\user\\desktop\\pushtogithub\\ps2024\\ps_44_ceco\\welcomeextended\\others\\delegates.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B0BF5F9-9552-4602-934B-AFF034E10ED8}|WelcomeExtended\\WelcomeExtended.csproj|solutionrelative:welcomeextended\\others\\delegates.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CF10154-53C1-4192-B266-BA71C72956F8}|Welcome\\Welcome.csproj|c:\\users\\user\\desktop\\pushtogithub\\ps2024\\ps_44_ceco\\welcome\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5CF10154-53C1-4192-B266-BA71C72956F8}|Welcome\\Welcome.csproj|solutionrelative:welcome\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1B0BF5F9-9552-4602-934B-AFF034E10ED8}|WelcomeExtended\\WelcomeExtended.csproj|c:\\users\\user\\desktop\\pushtogithub\\ps2024\\ps_44_ceco\\welcomeextended\\welcomeextended.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -58,8 +66,99 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserHelper.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\PushToGithub\\PS2024\\PS_44_Ceco\\WelcomeExtended\\Helpers\\UserHelper.cs",
+              "RelativeDocumentMoniker": "WelcomeExtended\\Helpers\\UserHelper.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\PushToGithub\\PS2024\\PS_44_Ceco\\WelcomeExtended\\Helpers\\UserHelper.cs",
+              "RelativeToolTip": "WelcomeExtended\\Helpers\\UserHelper.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAYwB8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-04T18:42:34.495Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserData.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\PushToGithub\\PS2024\\PS_44_Ceco\\WelcomeExtended\\Data\\UserData.cs",
+              "RelativeDocumentMoniker": "WelcomeExtended\\Data\\UserData.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\PushToGithub\\PS2024\\PS_44_Ceco\\WelcomeExtended\\Data\\UserData.cs",
+              "RelativeToolTip": "WelcomeExtended\\Data\\UserData.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAAAE0AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-04T18:20:23.85Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\PushToGithub\\PS2024\\PS_44_Ceco\\WelcomeExtended\\Program.cs",
+              "RelativeDocumentMoniker": "WelcomeExtended\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\PushToGithub\\PS2024\\PS_44_Ceco\\WelcomeExtended\\Program.cs",
+              "RelativeToolTip": "WelcomeExtended\\Program.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAmwDMAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-01T16:52:04.862Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LoggerProvider.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\PushToGithub\\PS2024\\PS_44_Ceco\\WelcomeExtended\\Loggers\\LoggerProvider.cs",
+              "RelativeDocumentMoniker": "WelcomeExtended\\Loggers\\LoggerProvider.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\PushToGithub\\PS2024\\PS_44_Ceco\\WelcomeExtended\\Loggers\\LoggerProvider.cs",
+              "RelativeToolTip": "WelcomeExtended\\Loggers\\LoggerProvider.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAkAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-02T13:45:37.631Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\PushToGithub\\PS2024\\PS_44_Ceco\\Welcome\\Model\\User.cs",
+              "RelativeDocumentMoniker": "Welcome\\Model\\User.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\PushToGithub\\PS2024\\PS_44_Ceco\\Welcome\\Model\\User.cs",
+              "RelativeToolTip": "Welcome\\Model\\User.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-29T10:05:11.297Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UserRolesEnum.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\PushToGithub\\PS2024\\PS_44_Ceco\\Welcome\\Others\\UserRolesEnum.cs",
+              "RelativeDocumentMoniker": "Welcome\\Others\\UserRolesEnum.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\PushToGithub\\PS2024\\PS_44_Ceco\\Welcome\\Others\\UserRolesEnum.cs",
+              "RelativeToolTip": "Welcome\\Others\\UserRolesEnum.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-29T10:05:11.299Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UserView.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\PushToGithub\\PS2024\\PS_44_Ceco\\Welcome\\View\\UserView.cs",
+              "RelativeDocumentMoniker": "Welcome\\View\\UserView.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\PushToGithub\\PS2024\\PS_44_Ceco\\Welcome\\View\\UserView.cs",
+              "RelativeToolTip": "Welcome\\View\\UserView.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-29T10:05:11.158Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 5,
@@ -75,85 +174,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\PushToGithub\\PS2024\\PS_44_Ceco\\WelcomeExtended\\Program.cs",
-              "RelativeDocumentMoniker": "WelcomeExtended\\Program.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\PushToGithub\\PS2024\\PS_44_Ceco\\WelcomeExtended\\Program.cs",
-              "RelativeToolTip": "WelcomeExtended\\Program.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAUwBoAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-01T16:52:04.862Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "UserView.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\PushToGithub\\PS2024\\PS_44_Ceco\\Welcome\\View\\UserView.cs",
-              "RelativeDocumentMoniker": "Welcome\\View\\UserView.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\PushToGithub\\PS2024\\PS_44_Ceco\\Welcome\\View\\UserView.cs",
-              "RelativeToolTip": "Welcome\\View\\UserView.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAkwBkAAAA3AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-29T10:05:11.158Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "UserViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\PushToGithub\\PS2024\\PS_44_Ceco\\Welcome\\ViewModel\\UserViewModel.cs",
-              "RelativeDocumentMoniker": "Welcome\\ViewModel\\UserViewModel.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\PushToGithub\\PS2024\\PS_44_Ceco\\Welcome\\ViewModel\\UserViewModel.cs",
-              "RelativeToolTip": "Welcome\\ViewModel\\UserViewModel.cs",
-              "ViewState": "AQIAACMAAAAAAAAAAAAUwAoAAAALAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-29T10:05:11.294Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\PushToGithub\\PS2024\\PS_44_Ceco\\Welcome\\Program.cs",
-              "RelativeDocumentMoniker": "Welcome\\Program.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\PushToGithub\\PS2024\\PS_44_Ceco\\Welcome\\Program.cs",
-              "RelativeToolTip": "Welcome\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAfAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-29T10:05:11.432Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
               "Title": "HashLogger.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\PushToGithub\\PS2024\\PS_44_Ceco\\WelcomeExtended\\Loggers\\HashLogger.cs",
               "RelativeDocumentMoniker": "WelcomeExtended\\Loggers\\HashLogger.cs",
               "ToolTip": "C:\\Users\\User\\Desktop\\PushToGithub\\PS2024\\PS_44_Ceco\\WelcomeExtended\\Loggers\\HashLogger.cs",
               "RelativeToolTip": "WelcomeExtended\\Loggers\\HashLogger.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAALAAAA",
+              "ViewState": "AQIAABMAAAAAAAAAAAAkwAoAAAALAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-01T16:55:01.323Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "LoggerProvider.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\PushToGithub\\PS2024\\PS_44_Ceco\\WelcomeExtended\\Loggers\\LoggerProvider.cs",
-              "RelativeDocumentMoniker": "WelcomeExtended\\Loggers\\LoggerProvider.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\PushToGithub\\PS2024\\PS_44_Ceco\\WelcomeExtended\\Loggers\\LoggerProvider.cs",
-              "RelativeToolTip": "WelcomeExtended\\Loggers\\LoggerProvider.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAkAAAALAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-02T13:45:37.631Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 10,
               "Title": "Delegates.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\PushToGithub\\PS2024\\PS_44_Ceco\\WelcomeExtended\\Others\\Delegates.cs",
               "RelativeDocumentMoniker": "WelcomeExtended\\Others\\Delegates.cs",
@@ -161,51 +195,48 @@
               "RelativeToolTip": "WelcomeExtended\\Others\\Delegates.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAAAoAAAALAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-02T13:53:36.315Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "UserRolesEnum.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\PushToGithub\\PS2024\\PS_44_Ceco\\Welcome\\Others\\UserRolesEnum.cs",
-              "RelativeDocumentMoniker": "Welcome\\Others\\UserRolesEnum.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\PushToGithub\\PS2024\\PS_44_Ceco\\Welcome\\Others\\UserRolesEnum.cs",
-              "RelativeToolTip": "Welcome\\Others\\UserRolesEnum.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAXAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-29T10:05:11.299Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-02T13:53:36.315Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\PushToGithub\\PS2024\\PS_44_Ceco\\Welcome\\Model\\User.cs",
-              "RelativeDocumentMoniker": "Welcome\\Model\\User.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\PushToGithub\\PS2024\\PS_44_Ceco\\Welcome\\Model\\User.cs",
-              "RelativeToolTip": "Welcome\\Model\\User.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAKAAAA",
+              "Title": "UserViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\PushToGithub\\PS2024\\PS_44_Ceco\\Welcome\\ViewModel\\UserViewModel.cs",
+              "RelativeDocumentMoniker": "Welcome\\ViewModel\\UserViewModel.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\PushToGithub\\PS2024\\PS_44_Ceco\\Welcome\\ViewModel\\UserViewModel.cs",
+              "RelativeToolTip": "Welcome\\ViewModel\\UserViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-29T10:05:11.297Z",
+              "WhenOpened": "2024-02-29T10:05:11.294Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "WelcomeExtended",
+              "DocumentIndex": 11,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\PushToGithub\\PS2024\\PS_44_Ceco\\Welcome\\Program.cs",
+              "RelativeDocumentMoniker": "Welcome\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\PushToGithub\\PS2024\\PS_44_Ceco\\Welcome\\Program.cs",
+              "RelativeToolTip": "Welcome\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-29T10:05:11.432Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "WelcomeExtended.csproj",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\PushToGithub\\PS2024\\PS_44_Ceco\\WelcomeExtended\\WelcomeExtended.csproj",
               "RelativeDocumentMoniker": "WelcomeExtended\\WelcomeExtended.csproj",
               "ToolTip": "C:\\Users\\User\\Desktop\\PushToGithub\\PS2024\\PS_44_Ceco\\WelcomeExtended\\WelcomeExtended.csproj",
               "RelativeToolTip": "WelcomeExtended\\WelcomeExtended.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-03-02T14:02:02.467Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-02T14:02:02.467Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "Welcome.csproj",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\PushToGithub\\PS2024\\PS_44_Ceco\\Welcome\\Welcome.csproj",
               "RelativeDocumentMoniker": "Welcome\\Welcome.csproj",
@@ -213,8 +244,7 @@
               "RelativeToolTip": "Welcome\\Welcome.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-02-29T10:05:11.301Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-02-29T10:05:11.301Z"
             }
           ]
         }

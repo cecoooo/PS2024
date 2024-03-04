@@ -1,15 +1,26 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Security.Cryptography;
-using System.Text;
-using System.Threading.Tasks;
-using Welcome.Others;
+﻿using Welcome.Others;
 
 namespace Welcome.Model
 {
     public class User
     {
+		private int id;
+
+		public int Id
+		{
+			get { return id; }
+			set { id = value; }
+		}
+
+		private bool activeStatus;
+
+		public bool ActiveStatus
+		{
+			get { return activeStatus; }
+			set { activeStatus = value; }
+		}
+
+
 		private string names;
 
 		public string Names

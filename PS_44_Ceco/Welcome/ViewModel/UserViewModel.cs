@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Welcome.Model;
+﻿using Welcome.Model;
 using Welcome.Others;
 
 namespace Welcome.ViewModel
@@ -15,35 +10,39 @@ namespace Welcome.ViewModel
         }
 
         private User _user;
-        private string name;
+        public int Id
+        {
+            get { return _user.Id; }
+            set { _user.Id = value; }
+        }
+        public bool ActiveStatus
+        {
+            get { return _user.ActiveStatus; }
+            set { _user.ActiveStatus = value; }
+        }
+
 
         public string Name
         {
             get { return _user.Names; }
-            set { name = _user.Names; }
+            set { _user.Names = _user.Names; }
         }
-        private string password;
         public string Password
         {
             get { return _user.Password; }
-            set { password = _user.Password; }
+            set { _user.Password = _user.Password; }
         }
-        private UserRolesEnum role;
         public UserRolesEnum Role
         {
             get { return _user.Role; }
-            set { role = _user.Role; }
+            set { _user.Role = value; }
         }
-
-        private string email;
 
         public string Email
         {
             get { return _user.Email; }
             set { _user.Email = value; }
         }
-
-        private string faucltyNumber;
 
         public string FacultyNumber
         {
