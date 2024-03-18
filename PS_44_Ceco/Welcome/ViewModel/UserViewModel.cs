@@ -15,10 +15,10 @@ namespace Welcome.ViewModel
             get { return _user.Id; }
             set { _user.Id = value; }
         }
-        public bool ActiveStatus
+        public DateTime Expires
         {
-            get { return _user.ActiveStatus; }
-            set { _user.ActiveStatus = value; }
+            get { return _user.Expires; }
+            set { _user.Expires = value; }
         }
 
 

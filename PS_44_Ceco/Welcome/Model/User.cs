@@ -4,26 +4,26 @@ namespace Welcome.Model
 {
     public class User
     {
-		private int id;
+        private int id;
 
-		public int Id
+		public virtual int Id
 		{
 			get { return id; }
 			set { id = value; }
 		}
 
-		private bool activeStatus;
+		private DateTime expires;
 
-		public bool ActiveStatus
-		{
-			get { return activeStatus; }
-			set { activeStatus = value; }
+		public virtual DateTime Expires
+        {
+			get { return expires; }
+			set { expires = value; }
 		}
 
 
 		private string names;
 
-		public string Names
+		public virtual string Names
 		{
 			get { return names; }
 			set { names = value; }
@@ -31,7 +31,7 @@ namespace Welcome.Model
 
 		private string password;
 
-		public string Password
+		public virtual string Password
 		{
 			get { return password; }
 			set { password = HashClass.hashPassword(value); }
@@ -39,14 +39,14 @@ namespace Welcome.Model
 
 		private UserRolesEnum role;
 
-		public UserRolesEnum Role
+		public virtual UserRolesEnum Role
         {
 			get { return role; }
 			set { role = value; }
 		}
 		private string facultyNumber;
 
-		public string FacultyNumber
+		public virtual string FacultyNumber
 		{
 			get { return facultyNumber; }
 			set { facultyNumber = value; }
@@ -54,7 +54,7 @@ namespace Welcome.Model
 
 		private string email;
 
-		public string Email
+		public virtual string Email
 		{
 			get { return email; }
 			set { email = value; }

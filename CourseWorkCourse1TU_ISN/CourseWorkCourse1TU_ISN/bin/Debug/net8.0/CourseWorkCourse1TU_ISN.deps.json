@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "CourseWorkCourse1TU_ISN/1.0.0": {
+        "runtime": {
+          "CourseWorkCourse1TU_ISN.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CourseWorkCourse1TU_ISN/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

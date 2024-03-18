@@ -4,19 +4,18 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using WelcomeExtended.Loggers;
 
-namespace WelcomeExtended.Loggers
+namespace WelcomeExtended.Loggers;
+internal class LoggerProvider : ILoggerProvider
 {
-    public class LoggerProvider : ILoggerProvider
+    public ILogger CreateLogger(string categoryName)
     {
-        public ILogger CreateLogger(string categoryName)
-        {
-            return new HashLogger(categoryName);
-        }
+        return new HashLogger(categoryName);
+    }
 
-        public void Dispose()
-        {
-
-        }
+    public void Dispose()
+    {
+        throw new NotImplementedException();
     }
 }
