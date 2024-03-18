@@ -26,3 +26,15 @@ C:\Users\User\Desktop\PushToGithub\PS2024\PS_44_Ceco\WelcomeExtended\obj\Debug\n
 C:\Users\User\Desktop\PushToGithub\PS2024\PS_44_Ceco\WelcomeExtended\obj\Debug\net8.0\WelcomeExtended.pdb
 C:\Users\User\Desktop\PushToGithub\PS2024\PS_44_Ceco\WelcomeExtended\obj\Debug\net8.0\WelcomeExtended.genruntimeconfig.cache
 C:\Users\User\Desktop\PushToGithub\PS2024\PS_44_Ceco\WelcomeExtended\obj\Debug\net8.0\ref\WelcomeExtended.dll
+C:\Users\User\Desktop\PushToGithub\PS2024\PS_44_Ceco\WelcomeExtended\bin\Debug\net8.0\Microsoft.Extensions.Configuration.dll
+C:\Users\User\Desktop\PushToGithub\PS2024\PS_44_Ceco\WelcomeExtended\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\User\Desktop\PushToGithub\PS2024\PS_44_Ceco\WelcomeExtended\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\User\Desktop\PushToGithub\PS2024\PS_44_Ceco\WelcomeExtended\bin\Debug\net8.0\Microsoft.Extensions.Configuration.EnvironmentVariables.dll
+C:\Users\User\Desktop\PushToGithub\PS2024\PS_44_Ceco\WelcomeExtended\bin\Debug\net8.0\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Users\User\Desktop\PushToGithub\PS2024\PS_44_Ceco\WelcomeExtended\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Json.dll
+C:\Users\User\Desktop\PushToGithub\PS2024\PS_44_Ceco\WelcomeExtended\bin\Debug\net8.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\User\Desktop\PushToGithub\PS2024\PS_44_Ceco\WelcomeExtended\bin\Debug\net8.0\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Users\User\Desktop\PushToGithub\PS2024\PS_44_Ceco\WelcomeExtended\bin\Debug\net8.0\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Users\User\Desktop\PushToGithub\PS2024\PS_44_Ceco\WelcomeExtended\bin\Debug\net8.0\Microsoft.Extensions.Logging.AzureAppServices.dll
+C:\Users\User\Desktop\PushToGithub\PS2024\PS_44_Ceco\WelcomeExtended\bin\Debug\net8.0\Microsoft.Extensions.Logging.Configuration.dll
+C:\Users\User\Desktop\PushToGithub\PS2024\PS_44_Ceco\WelcomeExtended\bin\Debug\net8.0\Microsoft.Extensions.Options.ConfigurationExtensions.dll

@@ -1,60 +1,67 @@
-﻿using System.Data;
+﻿using Microsoft.Extensions.Logging;
+using System.Text;
 using Welcome.Model;
 using Welcome.Others;
-using Welcome.View;
-using Welcome.ViewModel;
 using WelcomeExtended.Data;
 using WelcomeExtended.Helpers;
-using static WelcomeExtended.Others.Delegates;
 
-namespace WelcomeExtended
+class Program
 {
-    internal class Program
+    public static void Main()
     {
-        static void Main(string[] args)
+        Console.OutputEncoding = Encoding.UTF8;
+        ILogger il = LoggerHelper.GetFileLogger("hi");
+        try
         {
-			try
-			{
-				UserData userData = new UserData();
+            UserData userData = new UserData();
 
-				User studentUser = new User() 
-				{
-					Names = "student123",
-					Password = "123",
-					Role = UserRolesEnum.STUDENT
-				};
-				userData.AddUser(studentUser);
-                User teacherUser = new User()
-                {
-                    Names = "Teacher",
-                    Password = "1234",
-                    Role = UserRolesEnum.PROFESSOR
-                };
-                userData.AddUser(studentUser);
-                User adminUser = new User()
-                {
-                    Names = "Admin",
-                    Password = "12345",
-                    Role = UserRolesEnum.ADMIN
-                };
+            User studentUser = new User()
+            {
+                Names = "student",
+                Password = "123",
+                Role = UserRolesEnum.STUDENT
+            };
+            User u2 = new User()
+            {
+                Names = "Student2",
+                Password = "123",
+                Role = UserRolesEnum.STUDENT
+            };
+            User u3 = new User()
+            {
+                Names = "Teacher",
+                Password = "1234",
+                Role = UserRolesEnum.PROFESSOR
+            };
+            User u4 = new User()
+            {
+                Names = "Admin",
+                Password = "12345",
+                Role = UserRolesEnum.ADMIN
+            };
+            userData.AddUser(studentUser);
+            userData.AddUser(u2);
+            userData.AddUser(u3);
+            userData.AddUser(u4);
 
-                Console.Write("Enter name: ");
-                var name = Console.ReadLine();
-                Console.Write("Enter password: ");
-                var password = Console.ReadLine();
-                User user = new User();
+            Console.WriteLine("Name:");
+            string name = Console.ReadLine();
+            Console.WriteLine("Pass:");
+            string pass = Console.ReadLine();
 
-                Console.WriteLine(UserHelper.ToString(UserHelper.GetUser(user, name, password)));
-            }
-			catch (Exception e)
-			{
-				var log = new ActionError(Log);
-				log(e.Message);
-			}
-			finally
-			{
-                Console.WriteLine("\nExecuted in any case!");
-            }
+            userData.ValidateCredentials(name, pass);
+            User gu = userData.GetUser(name, pass);
+
+            Console.WriteLine(gu.ToString(true));
+
+
+            il.LogInformation($"{gu.ToString(true)} - {DateTime.Now.ToString()}");
         }
+        catch (Exception ex)
+        {
+            Console.WriteLine(ex.Message);
+            il.LogError(ex.Message);
+        }
+
     }
 }

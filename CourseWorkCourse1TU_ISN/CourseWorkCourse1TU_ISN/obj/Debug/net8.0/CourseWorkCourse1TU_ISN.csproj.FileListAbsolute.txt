@@ -1,0 +1,15 @@
+C:\Users\User\Desktop\PushToGithub\PS2024\CourseWorkCourse1TU_ISN\CourseWorkCourse1TU_ISN\bin\Debug\net8.0\CourseWorkCourse1TU_ISN.exe
+C:\Users\User\Desktop\PushToGithub\PS2024\CourseWorkCourse1TU_ISN\CourseWorkCourse1TU_ISN\bin\Debug\net8.0\CourseWorkCourse1TU_ISN.deps.json
+C:\Users\User\Desktop\PushToGithub\PS2024\CourseWorkCourse1TU_ISN\CourseWorkCourse1TU_ISN\bin\Debug\net8.0\CourseWorkCourse1TU_ISN.runtimeconfig.json
+C:\Users\User\Desktop\PushToGithub\PS2024\CourseWorkCourse1TU_ISN\CourseWorkCourse1TU_ISN\bin\Debug\net8.0\CourseWorkCourse1TU_ISN.dll
+C:\Users\User\Desktop\PushToGithub\PS2024\CourseWorkCourse1TU_ISN\CourseWorkCourse1TU_ISN\bin\Debug\net8.0\CourseWorkCourse1TU_ISN.pdb
+C:\Users\User\Desktop\PushToGithub\PS2024\CourseWorkCourse1TU_ISN\CourseWorkCourse1TU_ISN\obj\Debug\net8.0\CourseWorkCourse1TU_ISN.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\PushToGithub\PS2024\CourseWorkCourse1TU_ISN\CourseWorkCourse1TU_ISN\obj\Debug\net8.0\CourseWorkCourse1TU_ISN.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\PushToGithub\PS2024\CourseWorkCourse1TU_ISN\CourseWorkCourse1TU_ISN\obj\Debug\net8.0\CourseWorkCourse1TU_ISN.AssemblyInfo.cs
+C:\Users\User\Desktop\PushToGithub\PS2024\CourseWorkCourse1TU_ISN\CourseWorkCourse1TU_ISN\obj\Debug\net8.0\CourseWorkCourse1TU_ISN.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\PushToGithub\PS2024\CourseWorkCourse1TU_ISN\CourseWorkCourse1TU_ISN\obj\Debug\net8.0\CourseWorkCourse1TU_ISN.sourcelink.json
+C:\Users\User\Desktop\PushToGithub\PS2024\CourseWorkCourse1TU_ISN\CourseWorkCourse1TU_ISN\obj\Debug\net8.0\CourseWorkCourse1TU_ISN.dll
+C:\Users\User\Desktop\PushToGithub\PS2024\CourseWorkCourse1TU_ISN\CourseWorkCourse1TU_ISN\obj\Debug\net8.0\refint\CourseWorkCourse1TU_ISN.dll
+C:\Users\User\Desktop\PushToGithub\PS2024\CourseWorkCourse1TU_ISN\CourseWorkCourse1TU_ISN\obj\Debug\net8.0\CourseWorkCourse1TU_ISN.pdb
+C:\Users\User\Desktop\PushToGithub\PS2024\CourseWorkCourse1TU_ISN\CourseWorkCourse1TU_ISN\obj\Debug\net8.0\CourseWorkCourse1TU_ISN.genruntimeconfig.cache
+C:\Users\User\Desktop\PushToGithub\PS2024\CourseWorkCourse1TU_ISN\CourseWorkCourse1TU_ISN\obj\Debug\net8.0\ref\CourseWorkCourse1TU_ISN.dll

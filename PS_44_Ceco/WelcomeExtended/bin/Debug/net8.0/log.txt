@@ -1,0 +1,20 @@
+== Logger ==
+[Error] [Hello File]
+Display Error Message.
+== Logger ==
+== Logger ==
+[Error] [hi]
+User not found.
+== Logger ==
+== Logger ==
+[Error] [hi]
+User not found.
+== Logger ==
+== Logger ==
+[Error] [hi]
+User not found.
+== Logger ==
+== Logger ==
+[Error] [hi]
+User not found.
+== Logger ==

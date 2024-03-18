@@ -6,74 +6,82 @@ using System.Threading.Tasks;
 using Welcome.Model;
 using Welcome.Others;
 
-namespace WelcomeExtended.Data
+namespace WelcomeExtended.Data;
+
+internal class UserData
 {
-    public class UserData
+    private List<User> _users;
+    private int _nextId;
+
+    public UserData()
     {
-        private List<User> _users;
-        private int _nextId;
+        _users = new List<User>();
+        _nextId = 0;
+    }
 
-        public UserData() 
+    public void AddUser(User user)
+    {
+        user.Id = _nextId++;
+        _users.Add(user);
+    }
+
+    public void DeleteUser(User user)
+    {
+        _users.Remove(user);
+    }
+
+    public bool ValidateUser(string name, string password)
+    {
+        foreach (var user in _users)
         {
-            _nextId = 0;
-            _users = new List<User>();
+            if (user.Names == name && user.Password == password)
+            {
+                return true;
+            }
         }
+        return false;
+    }
 
-        public void AddUser(User user) 
+    public bool ValidateUserLambda(string name, string password)
+    {
+        return _users.Where(x => x.Names == name && x.Password == password)
+            .FirstOrDefault() != null ? true : false;
+    }
+
+    public bool ValidateUserLinq(string name, string password)
+    {
+        var ret = from user in _users
+                  where user.Names == name && user.Password == password
+                  select user.Id;
+        return ret != null ? true : false;
+    }
+
+    public User? GetUser(string name, string password)
+    {
+        User u = _users.Where(x => x.Names == name && x.Password == password)
+            .FirstOrDefault();
+        if (u == null)
         {
-            user.Id = _nextId++;
-            _users.Add(user);
+            throw new Exception("User not found.");
         }
+        return u;
+    }
 
-        public void DeleteUser(User user) 
+    public void SetActive(string name, DateTime dateTime)
+    {
+        User? user = _users.Where(x => x.Names == name).FirstOrDefault();
+        if (user != null)
         {
-            _users.Remove(user);
+            user.Expires = dateTime;
         }
+    }
 
-        public User ?GetUser(string name, string password) 
+    public void AssignUserRole(string name, UserRolesEnum role)
+    {
+        User? user = _users.Where(x => x.Names == name).FirstOrDefault();
+        if (user != null)
         {
-            foreach (var user in _users)
-                    if (user.Names == name && user.Password == password)
-                    return user;
-            
-            return null;
-        }
-
-
-
-        public bool ValidateUser(string name, string password) 
-        {
-            foreach (var user in _users)
-                if (user.Names == name && user.Password == password)
-                    return true;
-            return false;
-        }
-
-        public bool ValidateUserLambda(string name, string password) 
-        {
-            return _users.Where(x => x.Names == name && x.Password == password).FirstOrDefault() != null? true: false;
-        }
-
-        public bool ValidateUserLinq(string name, string password)
-        {
-            var res = from user in _users
-                      where user.Names == name && user.Password == password
-                      select user.Id;
-            return res != null ? true : false;
-        }
-
-        public void setActive(string name, string password) 
-        {
-            foreach (var user in _users)
-                if (user.Names == name && user.Password == password)
-                    user.ActiveStatus = true;
-        }
-
-        public void setRole(string name, UserRolesEnum role) 
-        {
-            foreach (var user in _users)
-                if (user.Names == name)
-                    user.Role = role;
+            user.Role = role;
         }
     }
 }

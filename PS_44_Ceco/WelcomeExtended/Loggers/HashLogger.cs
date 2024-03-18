@@ -6,55 +6,73 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace WelcomeExtended.Loggers
+
+namespace WelcomeExtended.Loggers;
+internal class HashLogger : ILogger
 {
-    public class HashLogger : ILogger
+    private readonly ConcurrentDictionary<int, string> _logMessages;
+    private readonly string _name;
+
+    public HashLogger(string name)
     {
-        private readonly ConcurrentDictionary<int, string> _logMessages;
-        private readonly string _name;
-        public HashLogger(string name) 
+        _name = name;
+        _logMessages = new ConcurrentDictionary<int, string>();
+    }
+
+    public IDisposable? BeginScope<TState>(TState state) where TState : notnull
+    {
+        return null;
+    }
+
+    public bool IsEnabled(LogLevel logLevel)
+    {
+        return true;
+    }
+    public void Log<TState>(LogLevel logLevel, EventId eventId, TState state, Exception? exception, Func<TState, Exception?, string> formatter)
+    {
+        var message = formatter(state, exception);
+
+        switch (logLevel)
         {
-            _name = name;
-            _logMessages = new ConcurrentDictionary<int, string>();
+            case LogLevel.Critical:
+                Console.ForegroundColor = ConsoleColor.Red; break;
+            case LogLevel.Error:
+                Console.ForegroundColor = ConsoleColor.DarkRed; break;
+            case LogLevel.Warning:
+                Console.ForegroundColor = ConsoleColor.Yellow; break;
+            default:
+                Console.ForegroundColor = ConsoleColor.White; break;
         }
 
-        public IDisposable? BeginScope<TState>(TState state) where TState : notnull
-        {
-            return null;
-        }
+        Console.WriteLine("== Logger ==");
+        var messageToBeLogged = new StringBuilder();
+        messageToBeLogged.Append($"[{logLevel}]");
+        messageToBeLogged.AppendFormat(" [{0}]", _name);
+        Console.WriteLine(messageToBeLogged);
+        Console.WriteLine($"{formatter(state, exception)}");
+        Console.WriteLine("== Logger ==");
+        Console.ResetColor();
 
-        public bool IsEnabled(LogLevel logLevel)
-        {
-            return true;
-        }
+        _logMessages[eventId.Id] = message;
+        PrintErrorById(0);
+        RemoveErrorById(0);
+    }
 
-        public void Log<TState>(LogLevel logLevel, EventId eventId, TState state, Exception? exception, Func<TState, Exception?, string> formatter)
+    public void PrintErrors()
+    {
+        foreach (var err in _logMessages)
         {
-            var message = formatter(state, exception);
-            switch (logLevel)
-            {
-                case LogLevel.Warning:
-                    Console.ForegroundColor = ConsoleColor.Yellow;
-                    break;
-                case LogLevel.Error:
-                    Console.ForegroundColor = ConsoleColor.DarkRed;
-                    break;
-                case LogLevel.Critical:
-                    Console.ForegroundColor = ConsoleColor.Red;
-                    break;
-                default:
-                    Console.ForegroundColor = ConsoleColor.White;
-                    break;
-            }
-            Console.WriteLine("-- LOGGER --");
-            var messageToBeLogged = new StringBuilder();
-            messageToBeLogged.Append($"[{logLevel}]");
-            messageToBeLogged.AppendFormat(" [{0}]", _name);
-            Console.WriteLine(messageToBeLogged);
-            Console.WriteLine($" {formatter(state, exception)}");
-            Console.WriteLine("-- LOGGER --");
-            Console.ResetColor();
-            _logMessages[eventId.Id] = message;
+            Console.WriteLine(err.Value);
         }
+    }
+
+    public void PrintErrorById(int id)
+    {
+        Console.WriteLine(_logMessages[id]);
+    }
+    public void RemoveErrorById(int id)
+    {
+        string txt = "";
+        _logMessages.Remove(id, out txt);
     }
 }

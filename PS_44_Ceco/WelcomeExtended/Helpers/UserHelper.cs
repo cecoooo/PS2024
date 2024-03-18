@@ -3,37 +3,34 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using WelcomeExtended.Data;
 using Welcome.Model;
 using WelcomeExtended.Data;
 
-namespace WelcomeExtended.Helpers
+namespace WelcomeExtended.Helpers;
+internal static class UserHelper
 {
-    public static class UserHelper
+
+    public static string ToString(this User user, bool isEx)
     {
-        public static string ToString(this User user) 
-        {
-            return $"User name: {user.Names}\n" +
-                $"Faculty number: {user.FacultyNumber}\n" +
-                $"Email: {user.Email}\n" +
-                $"Role: {user.Role}\n" +
-                $"Active/Unactive: {user.ActiveStatus}";
-        }
+        return $"{user.Id} - {user.Names} - {user.Role}";
+    }
 
-        public static void ValidateCredentials(this User user, string name, string password)
+    public static void ValidateCredentials(this UserData userData, string name, string password)
+    {
+        if (name.Length < 1)
         {
-            if (name == null)
-                throw new Exception($"The name field cannot be empty");
-            else if (password == null)
-                throw new Exception($"The password field cannot be empty");
-
-            user.Password = password;
-            user.Names = name;
+            throw new Exception("Name cannot be empty!");
         }
-
-        public static User GetUser(this User user, string name, string password)
+        else if (password.Length < 1)
         {
-            user.ValidateCredentials(name, password);
-            return user;
+            throw new Exception("Password cannot be empty!");
         }
+        userData.ValidateUser(name, password);
+    }
+
+    public static User? GetUser(this UserData userData, string name, string password)
+    {
+        return userData.GetUser(name, password);
     }
 }
